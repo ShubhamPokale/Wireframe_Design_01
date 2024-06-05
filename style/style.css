@@ -1,0 +1,31 @@
+/* Gradient background */
+.gradient-bg {
+    background: linear-gradient(90deg, rgba(53, 51, 176, 1) 0%, rgba(0, 195, 255, 1) 100%);
+    color: white;
+}
+
+/* Form container styling */
+.form-container {
+    background-color: white;
+    clip-path: path('M40 0 Q 0 0 0 40 L 0 calc(100% - 40px) Q 0 100% 40 100% L 100% 100% L 100% 0 Z');
+    border-radius: 40px 0 0 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+    /* clip-path: circle(50% at 50% 50%); */
+    /* clip-path: path('M 0 50% C 0 0, 200px 0, 200px 50% C 200px 100%, 0 100%, 0 50% L 100% 100% L 100% 0 Z'); */
+    /* border-radius:5px 30px 30px 5px; */
+    /* border-radius:75px 0 0 75px; */
+    
+    clip-path: path('M40 0 Q 0 0 0 40 L 0 calc(100% - 40px) Q 0 100% 40 100% L 100% 100% L 100% 0 Z');
+}
+
+
+.right-button-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the button to the right */
+    margin-top: 20px; /* Adds margin at the top for spacing */
+}
+
+h1 {
+    text-align: center;
+  }
